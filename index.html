@@ -1,0 +1,1580 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <link rel="manifest" href="/manifest.json">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, height=device-height">
+    <title>Yatra</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body class="page-srp">
+
+<nav class="navbar">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#">L O G O</a>
+    </div>
+
+    <div class="collapse navbar-collapse js-navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My account <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Support <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Special Deals <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Recent Search <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div><!-- /.nav-collapse -->
+</nav>
+
+
+<div class="" style="position: relative;">
+    <section class="full srp-wrapper">
+        <div class="wrapper" id="main-container">
+            <div id="filterBox" class="left-sidebar-panel">
+                <aside sticky class="new-theme srp-filters item-0 blur-filter">
+
+                    <h2 class="full filter-head"><span class="fl">Filter</span><span class="ytfi-cancel"></span>
+                    </h2>
+
+                    <div class="full filter-wrapper accordion-wrappper">
+                        <div class="fs-11 pt15 pb15  fr desktop-reset">
+                            <a rel="nofollow" class="under-link" title="Reset All Filters">RESET ALL</a>
+                        </div>
+                        <hr class="desktop-reset"/>
+                        <div class="accordion-menu hide">
+                            <!-- Flight Leg Start Here -->
+                            <input type="checkbox" id="acc-mlg-1"/>
+                            <label class="accordion-title" for="acc-mlg-1" title="View specific leg details" data-show="Show" data-hide="hide">Flight Leg</label>
+                            <div class="accordion-content">
+                                <ul class="full stop-list fs-11 stop-list-fixed-width">
+                                    <li class="">
+                                        <p class="txt-ac full"></p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Flight Leg End Here -->
+
+                        <div class="accordion-menu">
+                            <!-- Stops Start Here -->
+                            <input type="checkbox" value="" id="filter-stops"/>
+                            <label class="accordion-title" for="filter-stops" title="Refine By Stops" data-show="Show" data-hide="hide">Stops</label>
+                            <div class="accordion-content">
+                                <ul class="full stop-list fs-11 stop-list-fixed-width-50">
+                                    <li title="">
+                                        <label>
+                                            <input type="checkbox" class="input-hidden"/>
+                                            <span class="full bxs txt-ac">0</span>
+                                        </label>
+                                        <p class="txt-ac full"></p>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox" class="input-hidden"/>
+                                            <span class="full bxs txt-ac">1</span> </label>
+                                        <p class="txt-ac full">
+                                            <i></i>
+                                            548890 tk
+                                        </p>
+                                    </li>
+                                    <li title="">
+                                        <label>
+                                            <input type="checkbox" class="input-hidden"/>
+                                            <span class="full bxs txt-ac">2+</span>
+                                        </label>
+                                        <p class="txt-ac full">
+                                            <i class="fa fa-dollar-sign"></i>
+                                            40580
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Stops End Here -->
+
+                        <div class="accordion-menu">
+                            <!-- Layover Time Start Here -->
+                            <input type="checkbox" value="" id="filter-layover"/>
+                            <label class="accordion-title" for="filter-layover" title="Refine By Layover Time"
+                                   data-show="Show" data-hide="hide">Layover Time</label>
+                            <div class="accordion-content">
+                                <ul class="full stop-list fs-11 layover-list-fixed-width">
+                                    <li>
+                                        <label>
+                                            <input type="checkbox" class="input-hidden"/>
+                                            <span class="txt-ac full bxs nowrap">0h - 5h</span>
+                                        </label>
+
+                                        <p class="txt-ac full">60</p>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox" class="input-hidden"/>
+                                            <span class="txt-ac full bxs nowrap">5h - 10h</span>
+                                        </label>
+
+                                        <p class="txt-ac full">89</p>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox" class="input-hidden"/>
+                                            <span class="txt-ac full bxs nowrap">10h - 15h</span>
+                                        </label>
+
+                                        <p class="txt-ac full">11</p>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox" class="input-hidden"/>
+                                            <span class="txt-ac full bxs mt5 nowrap">15h +</span>
+                                        </label>
+
+                                        <p class="txt-ac full">149</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Layover Time End Here -->
+
+
+                        <!-- Fare Type End Here -->
+
+                        <div class="accordion-menu">
+                            <!-- Fare Type Start Here -->
+                            <input type="checkbox" value="" id="filter-fare-type"/>
+                            <label class="accordion-title" for="filter-fare-type" title="Refine By Fare Type"
+                                   data-show="Show" data-hide="hide">Fare Type</label>
+                            <div class="accordion-content">
+                                <ul class="full">
+                                    <li class="filter-list">
+                                        <label class="filter-label"> <span class="checkbox">
+										<input type="checkbox">
+                                            <i class="ico-check fa fa-check">&nbsp;</i> </span> Refundable <span
+                                                class="ltr-gray pl5">195</span> </label>
+                                    </li>
+                                    <li class="filter-list">
+                                        <label class="filter-label">
+                                            <span class="checkbox">
+                                                <input type="checkbox">
+										        <i class="ico-check fa fa-check"></i>
+                                            </span> Non Refundable
+                                            <span class="ltr-gray pl5">114</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Fare Type End Here -->
+
+                        <div class="accordion-menu"><!-- Depart Time Start Here -->
+                            <input type="checkbox" value="" id="filter-open_dtime_{{$index}}"/>
+
+                            <label  class="accordion-title"
+                                    for="filter-open_dtime_{{$index}}" title="Refine By Departure Time" data-show="show"
+                                    data-hide="HIDE">
+
+                                <span class='three-dot'>Depart Time</span>
+                            </label>
+                            <div class="accordion-content">
+                                <ul class="depart-time-grid tabs">
+                                    <li class="tabs-link tab-hover-none">
+                                        <label class="depart-time-label" title="Late Night Flights">
+                                            <input type="checkbox">
+                                            <i class="fa fa-area-chart"></i>
+                                            <span class="filter-label full">00 - 06</span>
+                                        </label>
+                                    </li>
+                                    <li class="tabs-link tab-hover-none">
+                                        <label class="depart-time-label" title="Show Morning Flights">
+                                            <input type="checkbox">
+                                            <i class="fa fa-sun-o"></i>
+                                            <span class="filter-label full">06 - 12</span>
+                                        </label>
+                                    </li>
+                                    <li class="tabs-link tab-hover-none">
+                                        <label class="depart-time-label" title="Show After Noon Flights">
+                                            <input type="checkbox">
+                                            <i class="fa fa-sun-o"></i>
+                                            <span class="filter-label full">12 - 18</span>
+                                        </label>
+                                    </li>
+                                    <li class="tabs-link tab-hover-none">
+                                        <label class="depart-time-label" title="Show Evening Flights">
+                                            <input type="checkbox">
+                                            <i class="fa fa-moon-o"></i>
+                                            <span class="filter-label full">18 - 00</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <!-- Depart Time End Here -->
+
+                        <div class="accordion-menu">
+                            <!-- Price Start Here -->
+                            <input type="checkbox" value="" id="filter-price"/>
+                            <label class="accordion-title" for="filter-price" title="Refine By Price" data-show="Show" data-hide="hide">Price</label>
+                            <div class="accordion-content">
+
+                                <div class="acc-content ps-fix"></div>
+
+                            </div>
+                        </div>
+                        <!-- Price End Here -->
+
+                        <div class="accordion-menu">
+                            <!-- Alliances Start Here -->
+                            <input type="checkbox" value="" id="filter-alliance"/>
+                            <label class="accordion-title" for="filter-alliance" title="Refine By Alliance" data-show="Show" data-hide="hide">Refine By Alliance</label>
+                            <div class="accordion-content">
+                                <ul class="full">
+                                    <li class="filter-list">
+                                        <label class="filter-label" title="Show Oneworld Alliance Flights">
+                                            <span class="checkbox">
+										        <input type="checkbox">
+										        <i class="ico-check fa fa-check">&nbsp;</i>
+                                            </span> oneworld <span class="ltr-gray pl5">92</span>
+                                        </label>
+                                    </li>
+                                    <li class="filter-list">
+                                        <label class="filter-label" title="Show Star Alliance Flights">
+                                            <span class="checkbox">
+                                                <input type="checkbox">
+										        <i class="ico-check fa fa-check">&nbsp;</i>
+                                            </span> star
+                                            <span class="ltr-gray pl5">24</span>
+                                        </label>
+                                    </li>
+                                    <li class="filter-list">
+                                        <label class="filter-label" title="Show Sky Alliance Flights">
+                                            <span class="checkbox">
+                                                <input type="checkbox">
+										        <i class="ico-check fa fa-check">&nbsp;</i>
+                                            </span> sky
+                                            <span class="ltr-gray pl5">64</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Alliances End Here -->
+
+                        <div class="accordion-menu">
+                            <!-- Airlines Start Here -->
+                            <input type="checkbox" value="" id="filter-airline"/>
+                            <label class="accordion-title" for="filter-airline" title="Refine By Airlines" data-show="Show" data-hide="hide">
+                                <span class="fl">Airlines</span> <a rel="nofollow" href="#" class="fr mt2 fs-10 under-link">Clear</a>
+                            </label>
+                            <div class="accordion-content">
+                                <ul class="full">
+                                    <li class="filter-list filter-list-with-clear">
+                                        <span class="ltr-gray fs-sm fr filter-price">
+                                            <i></i>458000
+                                        </span>
+                                        <a rel="nofollow" href="#"
+                                           class="blue mr10 filter-only hidden-sm">Only</a>
+                                        <label class="filter-label nowrap">
+                                            <div class="checkbox-holder">
+                                                <span class="checkbox">
+                                                    <input type="checkbox" id="airline_{{value.ac}}"/>
+										        <i class="ico-check fa fa-check">&nbsp;</i>
+                                                </span>
+                                            </div>
+                                            <span class="clip-overflow">Air Asia</span>
+                                            <span class="ltr-gray pl5">2</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <a rel="nofollow" class="fr fs-11 under-link" href="#"> <span>View Less</span> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Airlines End Here -->
+
+                        <div class="accordion-menu">
+                            <!-- Layover Airport Start Here -->
+                            <input type="checkbox" value="" id="filter-layport"/>
+                            <label class="accordion-title" for="filter-layport" title="Refine By Layover Airports" data-show="Show" data-hide="hide">
+                                <span class="fl">Layover Airports</span>
+                                <a rel="nofollow" href="#" class="fr mt2 fs-10 under-link">Clear</a> </label>
+                            <div class="accordion-content">
+                                <ul class="full">
+                                    <li class="filter-list">
+                                        <span class="ltr-gray fs-sm fr"> <i></i>8566 </span>
+                                        <a rel="nofollow" href="#" class="blue mr10 filter-only hidden-sm">Only</a>
+                                        <label class="filter-label">
+                                            <span class="checkbox">
+										        <input type="checkbox"/>
+										        <i class="ico-check fa fa-check">&nbsp;</i>
+                                            </span>
+                                        </label>
+                                    </li>
+                                    <li class="filter-list">
+                                        <a rel="nofollow" class="fr fs-11 under-link" href="#">
+                                            <span>
+                                                <span>View More</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Layover Airport End Here -->
+
+                    </div>
+
+                </aside>
+                <div class="mobile-filter-doc full">
+                    <span class="new-gray-button small fl"> <a rel="nofollow" href="#" class="ico ico-rotate-refresh ico-right under-link">Reset</a> </span>
+                    <span class="new-blue-button fr">Apply Filter</span>
+                </div>
+            </div>
+            <div id="resultBox" class="srp-results new-theme blur-filter" style="float: right; display: block;">
+                <div class="full trip-details-wrapper-pwa new-theme typeR">
+                    <div class="logo">
+                        <a rel="" href="" class="">
+                            <i class="fa fa-arrow-left"></i>
+                        </a>
+                    </div>
+                    <div class="left fl">
+                        <p class="fs-12">
+                            Found 296 Flights
+                        </p>
+                        <p class="fs-10 ltr-gray uprcse mt2">
+                            in 0.065 seconds
+                        </p>
+                    </div>
+                    <div class="center fl">
+                        <ul class="full city-details tripR">
+                            <li>
+                                <p class="city-name">DHAKA</p>
+                                <p class="fs-10 ltr-gray uprcse mt2 tl">Wed, 21 Feb</p>
+                                <i class="fa fa-exchange"></i>
+                            </li>
+                            <li>
+                                <p class="city-name">Hong Kong</p>
+                                <p class="fs-10 ltr-gray uprcse tl mt2">Wed, 11 Apr</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right fr">
+                        <ul class="fr link-list">
+                            <li class="fl mobi-hide">
+                                <p class="new-gray-button fl small link-button">
+                                    <i class="fa fa-search"></i> Modify <span class="mobi-hide">Search</span>
+                                </p>
+                            </li>
+                            <li class="fl mobi-show">
+                                <p class="new-gray-button fl small link-button">
+                                    <i class="fa fa-search"></i>
+                                </p>
+                            </li>
+                            <li class="fl ml10 mobi-show">
+                                <p class="new-gray-button fl small">
+                                    <i class="fa fa-filter navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse"></i>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="full">
+                    <div class="near-by-airport-wrapper full"></div>
+                    <div class="full">
+                        <div class="full smart-search bxs">
+                            <ul class="smart-search-list">
+                                <li class="tipsy-holder active">
+                                    <div class="full" style="display: flex;align-items: center;">
+                                        <p class="full smart-search-descrp nowrap fs-12 all-flights">
+                                            <span class="fs-15">All Flights</span>
+                                            <span class="fs-12 ml5 ltr-gray">296 Flights</span>
+                                        </p>
+                                        <i class="fa fa-2x fa-plane icon-style"></i>
+                                    </div>
+                                </li>
+                                <li class="tipsy-holder">
+                                    <div class="partial-pay-box tipsy from-right-top">
+                                        <div class="tipsy-content fl bottom-right info">
+                                            <p class="full">Flights based on travel duration &amp; Price</p>
+                                        </div>
+                                    </div>
+                                    <div class="full">
+                                        <p class="full smart-search-label fs-12">Best Value</p>
+                                        <p class="full smart-search-descrp nowrap fs-12">
+                                            <span>
+							                    <span class="fs-15">
+                                                    <span>Rs.</span>1,51,186
+                                                </span>
+							                    <span class="fs-12 ml5 ltr-gray">08h 40m</span>
+							                    <span class="fs-12 ml5 ltr-gray">1 Stop</span>
+						                    </span>
+                                            <i class="fa fa-2x fa-plane icon-style smrt-srch-airlogo"></i>
+                                        </p>
+
+                                    </div>
+                                </li>
+                                <li class="tipsy-holder">
+                                    <div class="partial-pay-box tipsy from-right-top">
+                                        <div class="tipsy-content fl bottom-right info">
+                                            <p class="full">Flights based on travel duration.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="full">
+                                        <p class="full smart-search-label fs-12">Fastest</p>
+                                        <p class="full smart-search-descrp nowrap fs-12">
+                                            <span>
+                                                <span class="fs-15"> <span class="">08h 40m</span></span>
+                                                <span class="fs-12 ml5 ltr-gray">
+                                                    <span class="rs">Rs.</span>1,51,186
+                                                </span>
+                                                <span class="fs-12 ml5 ltr-gray">1 Stop</span>
+                                            </span>
+                                            <i class="fa fa-2x fa-plane icon-style smrt-srch-airlogo"></i>
+                                        </p>
+                                    </div>
+                                <li class="tipsy-holder">
+                                    <div class="partial-pay-box tipsy from-right-top">
+                                        <div class="tipsy-content fl bottom-right info">
+                                            <p class="full">Most economical flights.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="full">
+                                        <p class="full smart-search-label fs-12">Cheapest</p>
+                                        <p class="full smart-search-descrp nowrap fs-12">
+                                            <span>
+                                                <span class="fs-15">
+                                                    <span class="rs">Rs.</span>44,656
+                                                </span>
+                                                <span class="fs-12 ml5 ltr-gray">26h 45m</span>
+                                                <span class="fs-12 ml5 ltr-gray">2 Stop</span>
+                                            </span>
+                                            <i class="fa fa-2x fa-plane icon-style smrt-srch-airlogo"></i>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="matrix-wrapper mt15 airline-matrix">
+                            <ul class="matrix-all-airline tabs">
+                                <li class="full">
+                                    <a rel="nofollow" href="#" class="matrix-link txt-ac tabs-link active">
+                                        <p class="matrix-label mt5"><span class="b fs-14">All Airlines</span></p>
+                                        <p class="matrix-label hide">12 airlines</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="matrix-slide-wrapper has-next-prev matrix-small-screen">
+                                <a rel="nofollow" href="#" class="matrix-nav-link prev disabled left"></a>
+                                <a rel="nofollow" href="#" class="matrix-nav-link next rightl"></a>
+                                <div class="carousel slide" data-ride="carousel">
+                                    <ul class="matrix-slide-list tabs carousel-inner">
+                                        <li class="matrix-slide show-slide item active">
+                                            <a rel="nofollow" href="#" class="matrix-link tabs-link">
+                                                <p class="matrix-airline-logo">
+                                                    <i class="fa fa-plane icon-style-2  smrt-srch-airlogo"></i>
+                                                </p>
+                                                <p class="matrix-label uprcse">Multiple Airline</p>
+                                                <p class="matrix-label uprcse"><span class="rs">Rs.</span> 44,656</p>
+                                            </a>
+                                        </li><li class="matrix-slide show-slide matrix-li item">
+                                        <a rel="nofollow" href="#" class="matrix-link tabs-link">
+                                            <p class="matrix-airline-logo">
+                                                <i class="fa fa-plane icon-style-2 smrt-srch-airlogo"></i>
+                                            </p>
+                                            <p class="matrix-label uprcse">China Eastern</p>
+                                            <p class="matrix-label uprcse"><span class="rs">Rs.</span> 50,598</p>
+                                        </a>
+                                    </li><li class="matrix-slide show-slide matrix-li item">
+                                        <a rel="nofollow" href="#" class="matrix-link tabs-link">
+                                            <p class="matrix-airline-logo">
+                                                <i class="fa fa-plane icon-style-2 smrt-srch-airlogo"></i>
+                                            </p>
+                                            <p class="matrix-label uprcse">Malindo Air</p>
+                                            <p class="matrix-label uprcse"><span class="rs">Rs.</span> 55,455</p>
+                                        </a>
+                                    </li><li class="matrix-slide show-slide matrix-li item">
+                                        <a rel="nofollow" href="#" class="matrix-link tabs-link">
+                                            <p class="matrix-airline-logo">
+                                                <i class="fa fa-plane icon-style-2 smrt-srch-airlogo"></i>
+                                            </p>
+                                            <p class="matrix-label uprcse">Air Asia</p>
+                                            <p class="matrix-label uprcse"><span class="rs">Rs.</span> 60,074</p>
+                                        </a>
+                                    </li><li class="matrix-slide show-slide matrix-li item">
+                                        <a rel="nofollow" href="#" class="matrix-link tabs-link">
+                                            <p class="matrix-airline-logo">
+                                                <i class="fa fa-plane icon-style-2  smrt-srch-airlogo"></i>
+                                            </p>
+                                            <p class="matrix-label uprcse">Malaysia Airlines</p>
+                                            <p class="matrix-label uprcse"><span class="rs">Rs.</span> 63,189</p>
+                                        </a>
+                                    </li><li class="matrix-slide show-slide matrix-li item">
+                                        <a rel="nofollow" href="#" class="matrix-link tabs-link">
+                                            <p class="matrix-airline-logo">
+                                                <i class="fa fa-plane icon-style-2  smrt-srch-airlogo"></i>
+                                            </p>
+                                            <p class="matrix-label uprcse">China Southern Airlines</p>
+                                            <p class="matrix-label uprcse"><span class="rs">Rs.</span> 77,969</p>
+                                        </a>
+                                    </li><li class="matrix-slide show-slide matrix-li item">
+                                        <a rel="nofollow" href="#" class="matrix-link tabs-link">
+                                            <p class="matrix-airline-logo">
+                                                <i class="fa fa-plane icon-style-2  smrt-srch-airlogo"></i>
+                                            </p>
+                                            <p class="matrix-label uprcse">Emirates</p>
+                                            <p class="matrix-label uprcse"><span class="rs">Rs.</span> 97,183</p>
+                                        </a>
+                                    </li><li class="matrix-slide show-slide matrix-li item">
+                                        <a rel="nofollow" href="#" class="matrix-link tabs-link">
+                                            <p class="matrix-airline-logo">
+                                                <i class="fa fa-plane icon-style-2  smrt-srch-airlogo"></i>
+                                            </p>
+                                            <p class="matrix-label uprcse">Qatar Airways</p>
+                                            <p class="matrix-label uprcse"><span class="rs">Rs.</span> 1,09,138</p>
+                                        </a>
+                                    </li><li class="matrix-slide show-slide matrix-li item">
+                                        <a rel="nofollow" href="#" class="matrix-link tabs-link">
+                                            <p class="matrix-airline-logo">
+                                                <i class="fa fa-plane icon-style-2  smrt-srch-airlogo"></i>
+                                            </p>
+                                            <p class="matrix-label uprcse">Etihad Airways</p>
+                                            <p class="matrix-label uprcse"><span class="rs">Rs.</span> 1,09,491</p>
+                                        </a>
+                                    </li><li class="matrix-slide show-slide matrix-li item">
+                                        <a rel="nofollow" href="#" class="matrix-link tabs-link">
+                                            <p class="matrix-airline-logo">
+                                                <i class="fa fa-plane icon-style-2  smrt-srch-airlogo"></i>
+                                            </p>
+                                            <p class="matrix-label uprcse">GP</p>
+                                            <p class="matrix-label uprcse"><span class="rs">Rs.</span> 1,20,768</p>
+                                        </a>
+                                    </li><li class="matrix-slide show-slide matrix-li item">
+                                        <a rel="nofollow" href="#" class="matrix-link tabs-link">
+                                            <p class="matrix-airline-logo">
+                                                <i class="fa fa-plane icon-style-2  smrt-srch-airlogo"></i>
+                                            </p>
+                                            <p class="matrix-label uprcse">Biman Bangladesh Airline</p>
+                                            <p class="matrix-label uprcse"><span class="rs">Rs.</span> 1,31,096</p>
+                                        </a>
+                                    </li><li class="matrix-slide show-slide matrix-li ">
+                                        <a rel="nofollow" href="#" class="matrix-link tabs-link">
+                                            <p class="matrix-airline-logo">
+
+                                            </p>
+                                            <p class="matrix-label uprcse">Thai Airways Intl</p>
+                                            <p class="matrix-label uprcse"><span class="rs">Rs.</span> 1,51,186</p>
+                                        </a>
+                                    </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="srp-result-holder">
+                    <div class="full">
+                        <div class="full spr-wrapper spr-showcase result-round multiple-result">
+                            <div class="full mt20 mb10 pr new-theme sort-nav">
+                                <ul class="result-details">
+                                    <li class="result-grid-airline">
+                                        <a rel="nofollow" title="Airline" href="#" class="sort-link under-link js-sortlink"> <i class="icon icon-arrow-sort size-12"></i></a>
+                                    </li>
+                                    <li class="result-grid-timing">
+                                        <p class="depart-time fl">
+                                            <a rel="nofollow" href="#;" class="sort-link under-link js-sortlink">Depart &nbsp;<i class="icon icon-arrow-sort size-12"></i></a>
+                                        </p>
+                                        <p class="arrive-time fl">
+                                            <a rel="nofollow" href="#" class="sort-link under-link js-sortlink" >Arrive &nbsp;<i class="icon icon-arrow-sort size-12"></i></a>
+                                        </p>
+                                        <p class="fly-duration fl">
+                                            <a rel="nofollow" href="#" class="sort-link under-link js-sortlink" >Duration &nbsp;<i class="icon icon-arrow-sort size-12"></i></a>
+                                        </p>
+                                    </li>
+                                    <li class="result-grid-timing sm-align-dep-nav" ng-show="queryProp.type=='R'">
+                                        <p class="depart-time fl">
+                                            <a rel="nofollow" href="#" class="sort-link under-link js-sortlink" >Depart &nbsp;<i class="icon icon-arrow-sort size-12"></i></a>
+                                        </p>
+                                        <p class="arrive-time fl">
+                                            <a rel="nofollow" href="#" class="sort-link under-link js-sortlink">Arrive &nbsp;<i class="icon icon-arrow-sort size-12"></i></a>
+                                        </p>
+                                        <p class="fly-duration fl">
+                                            <a rel="nofollow" href="#" class="sort-link under-link js-sortlink" >Duration &nbsp;<i class="icon icon-arrow-sort size-12"></i></a>
+                                        </p>
+                                    </li>
+                                </ul>
+                                <div class="result-price sm-align-price-nav" style="width: auto;">
+                                    <a rel="nofollow" href="#" class="sort-link under-link js-sortlink active">Price
+                                        <span class="ltr-gray">/ Adult</span>
+                                        <i class="icon icon-arrow-sort size-12"></i>
+                                    </a>
+                                </div>
+                                <div class="currency-wrapper currency-switch-button fr hide">
+                                    <div class="select-box-wrapper fl">
+                                        <i class="ico-arrow-down-solid"></i>
+                                        <select id="currSel" data-role="none" class="template ng-pristine ng-untouched ng-valid">
+                                            <option value="INR">INR</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="full sponsored ng-hide">
+                                <div class="spr-header">
+                                    <span class="spr-txt bold"></span>
+                                    <span class="deal-wrap">
+                                    <span class="spr-airline-logo">
+                                        <span></span>
+                                        <i class="intAirLogo size-18 x fl" title=""></i>
+                                    </span>
+                                    <span class="spr-airline-fare">
+                                        <span>Starting</span>
+                                        <span class="bold">
+                                            <i class="fs-14 rs">Rs.</i></span>
+                                    </span>
+                                    <span class="spr-deal"></span>
+                                </span>
+                                    <span class="spr-btn bold"></span>
+                                </div>
+                            </div>
+                            <div class="spr-push">
+                                <div class="js-flightItem">
+                                    <article class="full result-card animation-off item-0" id="mux_44656">
+                                        <div class="full airlines-deals-holder bxs hidden-sm">
+                                            <div class="ib airlines-info hidden-sm multi-air">
+                                                <i class="ib intAirLogo mr5 size-28 xMU"></i>
+                                                <p class="ib airline-name mt5">
+                                                    China Eastern
+                                                    <span class="ltr-gray fs-10 hide"> SG-459
+                                                    <i class="fs-13">↩</i> SG-559
+                                                </span>
+                                                </p>
+                                                <div class="tipsy-holder fs-xs">
+                                                    <span class="tipsy-head">+1 more</span>
+                                                    <div class="partial-pay-box tipsy from-right-top">
+                                                        <div class="tipsy-content fl bottom-right info nowrap">
+                                                            <p class="full fs-11 ltr-gray mt2">
+                                                                <span>Malindo Air</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fr mt10 mb10 hidden-md mt15">
+                                            <span class="ecash-new result-tuple fs-9">
+                                                <span class="ecash-txt">eCash </span>
+                                                <b>
+                                                    <span class="ecash-amount">
+                                                        <span class="rs">Rs.</span>1,000
+                                                    </span>
+                                                </b>
+                                            </span>
+                                            </div>
+                                        </div>
+                                        <div class="full result-card-content">
+                                            <div class="ui-sm">
+                                                <div class="result-grid-airline full visible-sm">
+                                                    <div class="airline-logo-holder multi-air">
+                                                        <i class="air-logo intAirLogo size-28 xMU"></i>
+                                                        <p class="full airline-name">
+                                                            China Eastern
+                                                        </p>
+                                                        <div class="tipsy-holder fs-xs">
+                                                            <span class="tipsy-head">+1 more</span>
+
+                                                            <div class="partial-pay-box tipsy from-right-top">
+                                                                <div class="tipsy-content fl bottom-right info nowrap">
+                                                                    <p class="full fs-11 ltr-gray mt2">
+                                                                        <span>Malindo Air</span>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <p class="full airline-number ltr-gray fs-11 mt2 nowrap hide">
+                                                            SG-459
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="result-price">
+                                                    <div class="price-holder bxs">
+                                                        <div class="fl bxs price-value-holder">
+                                                            <p class="fl price-value fm-lb" title="Fare Summary">
+                                                                <i class="rs">Rs.</i>&nbsp;44,656
+                                                            </p>
+                                                        </div>
+
+                                                        <span class="fl mt-5 lt-gray conv-fee">
+                                                        Convenience Fee: +
+                                                        <i class="rs">Rs.</i> 599
+                                                    </span>
+                                                    </div>
+                                                    <div class="button-holder bxs">
+                                                        <div class="hide"></div>
+                                                        <div class="fr pr partial-pay">
+                                                            <p class="new-blue-button .js-bookNow book-btn relative tc">
+                                                                <span class="block"> &nbsp; &nbsp;Book Now&nbsp; &nbsp;</span>
+                                                            </p>
+                                                        </div>
+
+                                                        <p class="full fs-10 text-error mt2 hide">
+                                                            1 Seat(s) left
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <ul class="result-details">
+
+                                                <div class="hide"></div>
+
+                                                <li class="result-grid-timing">
+                                                    <label class="full grid-time-holder js-flightRow">
+                                                        <div class="hide"></div>
+                                                        <div class="fl depart-time">
+                                                            <div class="depart-radio">
+                                                            <span class="radio">
+                                                                <input data-role="none" name="rad_0mux_44656" class="ng-pristine ng-untouched ng-valid" type="radio">
+                                                                <i></i>
+                                                            </span>
+                                                            </div>
+                                                            <p class="full fm-lsb time-detail">
+                                                                14:35
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                DHAKA
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl arrive-time">
+                                                            <i class="ico ico-dir-right dir-arrow"></i>
+                                                            <p class="full fm-lsb time-detail">
+                                                                19:20
+                                                                <span class="date fs-11 ltr-gray fm-lr">22 Feb</span>
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                Hong Kong
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl fly-duration" title="via Kunming,Shanghai - Pudong">
+                                                            <p class="full duration">
+                                                                26h 45m
+                                                            </p>
+                                                            <p class="full fs-11 ltr-gray three-dot mt2 fly-stop">
+                                                                2 Stop(s), via Kunming,Shanghai - Pudong
+                                                            </p>
+                                                        </div>
+                                                    </label>
+                                                    <label class="full grid-time-holder js-flightRow">
+                                                        <div class="hide"></div>
+                                                        <div class="fl depart-time">
+                                                            <div class="depart-radio">
+                                                            <span class="radio">
+                                                                <input name="rad_1mux_44656" class="ng-pristine ng-untouched ng-valid" type="radio">
+                                                                <i></i>
+                                                            </span>
+                                                            </div>
+                                                            <p class="full fm-lsb time-detail">
+                                                                14:35
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                DHAKA
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl arrive-time">
+                                                            <i class="ico ico-dir-right dir-arrow"></i>
+                                                            <p class="full fm-lsb time-detail">
+                                                                19:20
+                                                                <span class="date fs-11 ltr-gray fm-lr">22 Feb</span>
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                Hong Kong
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl fly-duration" title="via Kunming,Shanghai">
+                                                            <p class="full duration">
+                                                                26h 45m
+                                                            </p>
+                                                            <p class="full fs-11 ltr-gray three-dot mt2 fly-stop">
+                                                                2 Stop(s), via Kunming,Shanghai
+                                                            </p>
+                                                        </div>
+                                                    </label>
+                                                    <label class="full grid-time-holder js-flightRow">
+                                                        <div class="hide"></div>
+                                                        <div class="fl depart-time">
+                                                            <div class="depart-radio">
+                                                            <span class="radio">
+                                                                <input data-role="none" name="rad_2mux_44656" class="ng-pristine ng-untouched ng-valid" type="radio">
+                                                                <i></i>
+                                                            </span>
+                                                            </div>
+                                                            <p class="full fm-lsb time-detail">
+                                                                14:35
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                DHAKA
+                                                            </p>
+
+                                                        </div>
+                                                        <div class="fl arrive-time">
+                                                            <i class="ico ico-dir-right dir-arrow"></i>
+                                                            <p class="full fm-lsb time-detail">
+                                                                19:20
+                                                                <span class="date fs-11 ltr-gray fm-lr>22 Feb"></span>
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                Hong Kong
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl fly-duration" title="via Kunming,Hefei,Shanghai - Pudong">
+                                                            <p class="full duration">
+                                                                26h 45m
+                                                            </p>
+                                                            <p class="full fs-11 ltr-gray three-dot mt2 fly-stop">
+                                                                3 Stop(s), via Kunming,Hefei,Shanghai - Pudong
+                                                            </p>
+                                                        </div>
+                                                    </label>
+                                                </li>
+                                                <li class="result-grid-timing last">
+                                                    <label class="full grid-time-holder js-flightRow">
+                                                        <div class="hide">1</div>
+                                                        <div class="fl depart-time">
+                                                            <div class="depart-radio">
+                                                        <span class="radio">
+                                                            <input class="ng-pristine ng-untouched ng-valid" type="radio">
+                                                            <i></i>
+                                                        </span>
+                                                            </div>
+                                                            <p class="full fm-lsb time-detail">
+                                                                15:10
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                Hong Kong
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl arrive-time">
+                                                            <i class="ico ico-dir-right dir-arrow"></i>
+                                                            <p class="full fm-lsb time-detail">
+                                                                22:00
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                DHAKA
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl fly-duration" title="via Kuala Lumpur">
+                                                            <p class="full duration">
+                                                                08h 50m
+                                                            </p>
+                                                            <p class="full fs-11 ltr-gray three-dot mt2 fly-stop">
+                                                                1 Stop(s), via Kuala Lumpur
+                                                            </p>
+                                                        </div>
+                                                    </label>
+                                                    <label class="full grid-time-holder js-flightRow">
+                                                        <div class="hide">
+                                                            1
+                                                        </div>
+                                                        <div class="fl depart-time">
+                                                            <div class="depart-radio">
+                                                            <span class="radio">
+                                                                <input class="ng-pristine ng-untouched ng-valid" type="radio">
+                                                                <i></i>
+                                                            </span>
+                                                            </div>
+                                                            <p class="full fm-lsb time-detail">
+                                                                15:10
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                Hong Kong
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl arrive-time">
+                                                            <i class="ico ico-dir-right dir-arrow"></i>
+                                                            <p class="full fm-lsb time-detail">
+                                                                23:50
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                DHAKA
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl fly-duration" title="via Kuala Lumpur">
+                                                            <p class="full duration">
+                                                                10h 40m
+                                                            </p>
+                                                            <p class="full fs-11 ltr-gray three-dot mt2 fly-stop">
+                                                                1 Stop(s), via Kuala Lumpur
+                                                            </p>
+                                                        </div>
+                                                    </label>
+                                                    <label class="full grid-time-holder js-flightRow">
+                                                        <div class="hide">
+                                                            1
+                                                        </div>
+                                                        <div class="fl depart-time">
+                                                            <div class="depart-radio">
+                                                        <span class="radio">
+                                                            <input data-role="none" name="rad2mux_44656" class="ng-pristine ng-untouched ng-valid" type="radio">
+                                                            <i></i>
+                                                        </span>
+                                                            </div>
+                                                            <p class="full fm-lsb time-detail">
+                                                                15:10
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                Hong Kong
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl arrive-time">
+                                                            <i class="ico ico-dir-right dir-arrow"></i>
+                                                            <p class="full fm-lsb time-detail">
+                                                                23:50
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                DHAKA
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl fly-duration" title="via Kuala Lumpur">
+                                                            <p class="full duration">
+                                                                10h 40m
+                                                            </p>
+                                                            <p class="full fs-11 ltr-gray three-dot mt2 fly-stop">
+                                                                1 Stop(s), via Kuala Lumpur
+                                                            </p>
+                                                        </div>
+                                                    </label>
+                                                </li>
+                                                <li class="result-view-more"></li>
+                                            </ul>
+                                        </div>
+                                        <div class="hide">
+                                        </div>
+                                        <div class="full lob-inclusions bxs hidden-md">
+                                            <div class="inc-left">
+                                                <p class="fs-11 ltr-gray">
+                                                    Flight Inclusions
+                                                </p>
+                                                <div class="leg-tabs custom-scroll">
+                                                    <div class="scroll-x">
+                                                        <ul class="fl">
+                                                            <li title="MU-2036">
+                                                                <a rel="nofollow" href="#" class="tab-content active">DAC - KMG</a> &nbsp;
+                                                                <i class="fa fa-long-arrow-right"></i>&nbsp;
+                                                            </li>
+                                                            <li title="MU-747">
+                                                                <a rel="nofollow" href="#" class="tab-content">KMG - PVG</a> &nbsp;
+                                                                <i class="fa fa-long-arrow-right"></i>&nbsp;
+                                                            </li>
+                                                            <li title="MU-505">
+                                                                <a rel="nofollow" href="#" class="tab-content">PVG - HKG</a> &nbsp;
+                                                                &nbsp;
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="fl">
+                                                            <li>
+                                                                <i class="fs-13 b mr5">↩</i>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="fl">
+                                                            <li title="OD-606">
+                                                                <a rel="nofollow" href="#" class="tab-content">HKG - KUL</a> &nbsp;
+                                                                <i class="fa fa-long-arrow-right"></i>&nbsp;
+                                                            </li>
+                                                            <li title="OD-166">
+                                                                <a rel="nofollow" href="#" class="tab-content">KUL - DAC</a> &nbsp;
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="inc-mid">
+                                                <ul class="inclusions">
+                                                    <li class="fs-sm mr7 active">
+                                                        <i class="fa fa-cutlery"></i>Meal
+                                                        <div class="tipsy from-right-top">
+                                                            <p class="tipsy-content fl bottom-right info nowrap">
+                                                                Free Meal
+                                                            </p>
+                                                        </div>
+
+                                                    </li>
+                                                    <li class="fs-sm active">
+                                                        <i class="fa fa-plane"></i>Aircraft
+                                                        <div class="tipsy from-right-top">
+                                                            <p class="tipsy-content fl bottom-right info nowrap">
+                                                                BOEING 737-800
+                                                            </p>
+                                                        </div>
+
+                                                    </li>
+                                                    <li class="fs-sm">
+                                                        <i class="fa fa-youtube-play"></i>Entertainment
+                                                        <div class="tipsy from-right-top" style="right:7px;">
+                                                            <p class="tipsy-content fl bottom-right info nowrap">
+                                                                No information available
+                                                            </p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="fs-sm hidden-sm hide">
+                                                        <i class="ytfi-plug"></i>Power
+                                                        <div class="tipsy from-right-top">
+                                                            <p class="tipsy-content fl bottom-right info nowrap">
+                                                                No information available
+                                                            </p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="fs-sm hidden-sm">
+                                                        <i class="fa fa-wifi"></i>Internet
+                                                        <div class="tipsy from-right-top">
+                                                            <p class="tipsy-content fl bottom-right info nowrap">
+                                                                No information available
+                                                            </p>
+                                                        </div>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="inc-rgt">
+                                                <ul>
+                                                    <li title="Non Refundable Fare">
+                                                        <a rel="nofollow" href="#" class="fs-sm under-link uprcse">Non Refundable</a>
+                                                    </li>
+                                                    <li>
+                                                        <a rel="nofollow" href="#" class="fs-sm under-link uprcse">Flight Details</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="full result-card-footer visible-md">
+                                            <ul class="fl result-card-footer-list uprcse">
+                                                <li>
+                                                    <a rel="nofollow" href="#" class="under-link uprcse">Flight Details</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="fr result-card-footer-list right">
+                                                <li class="uprcse">
+                                                    Free Meals
+                                                </li>
+                                                <li class="uprcse">
+                                                    Non Refundable
+                                                </li>
+                                                <li>
+                                                <span class="ecash-new result-tuple">
+                                                    <span class="ecash-txt">eCash </span>
+                                                    <b>
+                                                        <span class="ecash-amount">
+                                                            <span class="rs">Rs.</span>1,000</span>
+                                                    </b>
+                                                </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="js-flightItem">
+                                    <article class="full result-card animation-off item-0" id="">
+                                        <div class="full airlines-deals-holder bxs hidden-sm">
+                                            <div class="ib airlines-info hidden-sm multi-air">
+                                                <i class="ib intAirLogo mr5 size-28 xMU"></i>
+                                                <p class="ib airline-name mt5">
+                                                    China Eastern
+                                                    <span class="ltr-gray fs-10 hide"> SG-459
+                                                <i class="fs-13">↩</i> SG-559
+                                            </span>
+                                                </p>
+                                                <div class="tipsy-holder fs-xs">
+                                                    <span class="tipsy-head">+1 more</span>
+                                                    <div class="partial-pay-box tipsy from-right-top">
+                                                        <div class="tipsy-content fl bottom-right info nowrap">
+                                                            <p class="full fs-11 ltr-gray mt2">
+                                                                <span>Malindo Air</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fr mt10 mb10 hidden-md mt15">
+                                        <span class="ecash-new result-tuple fs-9">
+                                            <span class="ecash-txt">eCash </span>
+                                            <b>
+                                                <span class="ecash-amount">
+                                                    <span class="rs">Rs.</span>1,000
+                                                </span>
+                                            </b>
+                                        </span>
+                                            </div>
+                                        </div>
+                                        <div class="full result-card-content">
+                                            <div class="ui-sm">
+                                                <div class="result-grid-airline full visible-sm">
+                                                    <div class="airline-logo-holder multi-air">
+                                                        <i class="air-logo intAirLogo size-28 xMU"></i>
+                                                        <p class="full airline-name">
+                                                            China Eastern
+                                                        </p>
+                                                        <div class="tipsy-holder fs-xs">
+                                                            <span class="tipsy-head">+1 more</span>
+
+                                                            <div class="partial-pay-box tipsy from-right-top">
+                                                                <div class="tipsy-content fl bottom-right info nowrap">
+                                                                    <p class="full fs-11 ltr-gray mt2">
+                                                                        <span>Malindo Air</span>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <p class="full airline-number ltr-gray fs-11 mt2 nowrap hide">
+                                                            SG-459
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="result-price">
+                                                    <div class="price-holder bxs">
+                                                        <div class="fl bxs price-value-holder">
+                                                            <p class="fl price-value fm-lb" title="Fare Summary">
+                                                                <i class="rs">Rs.</i>&nbsp;44,656
+                                                            </p>
+                                                        </div>
+                                                        <span class="fl mt-5 lt-gray conv-fee">
+                                                    Convenience Fee: +
+                                                    <i class="rs">Rs.</i> 599
+                                                </span>
+                                                    </div>
+                                                    <div class="button-holder bxs">
+                                                        <div class="hide"></div>
+                                                        <div class="fr pr partial-pay">
+                                                            <p class="new-blue-button .js-bookNow book-btn relative tc">
+                                                                <span class="block"> &nbsp; &nbsp;Book Now&nbsp; &nbsp;</span>
+                                                            </p>
+                                                        </div>
+
+                                                        <p class="full fs-10 text-error mt2 hide">
+                                                            1 Seat(s) left
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <ul class="result-details">
+                                                <div class="hide"></div>
+
+                                                <li class="result-grid-timing">
+                                                    <label class="full grid-time-holder js-flightRow">
+                                                        <div class="hide"></div>
+                                                        <div class="fl depart-time">
+                                                            <div class="depart-radio">
+                                                        <span class="radio">
+                                                            <input data-role="none" name="rad_0mux_44656" class="ng-pristine ng-untouched ng-valid" type="radio">
+                                                            <i></i>
+                                                        </span>
+                                                            </div>
+                                                            <p class="full fm-lsb time-detail">
+                                                                14:35
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                DHAKA
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl arrive-time">
+                                                            <i class="ico ico-dir-right dir-arrow"></i>
+                                                            <p class="full fm-lsb time-detail">
+                                                                19:20
+                                                                <span class="date fs-11 ltr-gray fm-lr">22 Feb</span>
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                Hong Kong
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl fly-duration" title="via Kunming,Shanghai - Pudong">
+                                                            <p class="full duration">
+                                                                26h 45m
+                                                            </p>
+                                                            <p class="full fs-11 ltr-gray three-dot mt2 fly-stop">
+                                                                2 Stop(s), via Kunming,Shanghai - Pudong
+                                                            </p>
+                                                        </div>
+                                                    </label>
+                                                    <label class="full grid-time-holder js-flightRow">
+                                                        <div class="hide"></div>
+                                                        <div class="fl depart-time">
+                                                            <div class="depart-radio">
+                                                        <span class="radio">
+                                                            <input name="rad_1mux_44656" class="ng-pristine ng-untouched ng-valid" type="radio">
+                                                            <i></i>
+                                                        </span>
+                                                            </div>
+                                                            <p class="full fm-lsb time-detail">
+                                                                14:35
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                DHAKA
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl arrive-time">
+                                                            <i class="ico ico-dir-right dir-arrow"></i>
+                                                            <p class="full fm-lsb time-detail">
+                                                                19:20
+                                                                <span class="date fs-11 ltr-gray fm-lr">22 Feb</span>
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                Hong Kong
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl fly-duration" title="via Kunming,Shanghai">
+                                                            <p class="full duration">
+                                                                26h 45m
+                                                            </p>
+                                                            <p class="full fs-11 ltr-gray three-dot mt2 fly-stop">
+                                                                2 Stop(s), via Kunming,Shanghai
+                                                            </p>
+                                                        </div>
+                                                    </label>
+                                                    <label class="full grid-time-holder js-flightRow">
+                                                        <div class="hide"></div>
+                                                        <div class="fl depart-time">
+                                                            <div class="depart-radio">
+                                                        <span class="radio">
+                                                            <input data-role="none" name="rad_2mux_44656" class="ng-pristine ng-untouched ng-valid" type="radio">
+                                                            <i></i>
+                                                        </span>
+                                                            </div>
+                                                            <p class="full fm-lsb time-detail">
+                                                                14:35
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                DHAKA
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl arrive-time">
+                                                            <i class="ico ico-dir-right dir-arrow"></i>
+                                                            <p class="full fm-lsb time-detail">
+                                                                19:20
+                                                                <span class="date fs-11 ltr-gray fm-lr>22 Feb"></span>
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                Hong Kong
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl fly-duration" title="via Kunming,Hefei,Shanghai - Pudong">
+                                                            <p class="full duration">
+                                                                26h 45m
+                                                            </p>
+                                                            <p class="full fs-11 ltr-gray three-dot mt2 fly-stop">
+                                                                3 Stop(s), via Kunming,Hefei,Shanghai - Pudong
+                                                            </p>
+                                                        </div>
+                                                    </label>
+                                                </li>
+                                                <li class="result-grid-timing last">
+                                                    <label class="full grid-time-holder js-flightRow">
+                                                        <div class="hide">1</div>
+                                                        <div class="fl depart-time">
+                                                            <div class="depart-radio">
+                                                    <span class="radio">
+                                                        <input class="ng-pristine ng-untouched ng-valid" type="radio">
+                                                        <i></i>
+                                                    </span>
+                                                            </div>
+                                                            <p class="full fm-lsb time-detail">
+                                                                15:10
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                Hong Kong
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl arrive-time">
+                                                            <i class="ico ico-dir-right dir-arrow"></i>
+                                                            <p class="full fm-lsb time-detail">
+                                                                22:00
+                                                                <span class="date fs-11 ltr-gray fm-lr ng-hide">11 Apr</span>
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                DHAKA
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl fly-duration" title="via Kuala Lumpur">
+                                                            <p class="full duration">
+                                                                08h 50m
+                                                            </p>
+                                                            <p class="full fs-11 ltr-gray three-dot mt2 fly-stop">
+                                                                1 Stop(s), via Kuala Lumpur
+                                                            </p>
+                                                        </div>
+                                                    </label>
+                                                    <label class="full grid-time-holder js-flightRow">
+                                                        <div class="hide">
+                                                            1
+                                                        </div>
+                                                        <div class="fl depart-time">
+                                                            <div class="depart-radio">
+                                                        <span class="radio">
+                                                            <input class="ng-pristine ng-untouched ng-valid" type="radio">
+                                                            <i></i>
+                                                        </span>
+                                                            </div>
+                                                            <p class="full fm-lsb time-detail">
+                                                                15:10
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                Hong Kong
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl arrive-time">
+                                                            <i class="ico ico-dir-right dir-arrow"></i>
+                                                            <p class="full fm-lsb time-detail">
+                                                                23:50
+                                                                <span class="date fs-11 ltr-gray fm-lr ng-hide">11 Apr</span>
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                DHAKA
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl fly-duration" title="via Kuala Lumpur">
+                                                            <p class="full duration">
+                                                                10h 40m
+                                                            </p>
+                                                            <p class="full fs-11 ltr-gray three-dot mt2 fly-stop">
+                                                                1 Stop(s), via Kuala Lumpur
+                                                            </p>
+                                                        </div>
+                                                    </label>
+                                                    <label class="full grid-time-holder js-flightRow">
+                                                        <div class="hide">
+                                                            1
+                                                        </div>
+                                                        <div class="fl depart-time">
+                                                            <div class="depart-radio">
+                                                    <span class="radio">
+                                                        <input data-role="none" name="rad2mux_44656" class="ng-pristine ng-untouched ng-valid" type="radio">
+                                                        <i></i>
+                                                    </span>
+                                                            </div>
+                                                            <p class="full fm-lsb time-detail">
+                                                                15:10
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                Hong Kong
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl arrive-time">
+                                                            <i class="ico ico-dir-right dir-arrow"></i>
+                                                            <p class="full fm-lsb time-detail">
+                                                                23:50
+                                                                <span class="date fs-11 ltr-gray fm-lr ng-hide">11 Apr</span>
+                                                            </p>
+                                                            <p class="full city-name fs-11 ltr-gray mt2">
+                                                                DHAKA
+                                                            </p>
+                                                        </div>
+                                                        <div class="fl fly-duration" title="via Kuala Lumpur">
+                                                            <p class="full duration">
+                                                                10h 40m
+                                                            </p>
+                                                            <p class="full fs-11 ltr-gray three-dot mt2 fly-stop">
+                                                                1 Stop(s), via Kuala Lumpur
+                                                            </p>
+                                                        </div>
+                                                    </label>
+                                                </li>
+                                                <li class="result-view-more"></li>
+                                            </ul>
+                                        </div>
+                                        <div class="hide">
+                                        </div>
+                                        <div class="full lob-inclusions bxs hidden-md">
+                                            <div class="inc-left">
+                                                <p class="fs-11 ltr-gray">
+                                                    Flight Inclusions
+                                                </p>
+                                                <div class="leg-tabs custom-scroll">
+                                                    <div class="scroll-x">
+                                                        <ul class="fl">
+                                                            <li title="MU-2036">
+                                                                <a rel="nofollow" href="#" class="tab-content active">DAC - KMG</a> &nbsp;
+                                                                <i class="fa fa-long-arrow-right"></i>&nbsp;
+                                                            </li>
+                                                            <li title="MU-747">
+                                                                <a rel="nofollow" href="#" class="tab-content">KMG - PVG</a> &nbsp;
+                                                                <i class="fa fa-long-arrow-right"></i>&nbsp;
+                                                            </li>
+                                                            <li title="MU-505">
+                                                                <a rel="nofollow" href="#" class="tab-content">PVG - HKG</a> &nbsp;
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="fl">
+                                                            <li>
+                                                                <i class="fs-13 b mr5">↩</i>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="fl">
+                                                            <li title="OD-606">
+                                                                <a rel="nofollow" href="#" class="tab-content">HKG - KUL</a> &nbsp;
+                                                                <i class="fa fa-long-arrow-right"></i>&nbsp;
+                                                            </li>
+                                                            <li title="MU-505">
+                                                                <a rel="nofollow" href="#" class="tab-content">PVG - HKG</a> &nbsp;
+                                                                &nbsp;
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="inc-mid">
+                                                <ul class="inclusions">
+                                                    <li class="fs-sm mr7 active">
+                                                        <i class="fa fa-cutlery"></i>Meal
+                                                        <div class="tipsy from-right-top">
+                                                            <p class="tipsy-content fl bottom-right info nowrap">
+                                                                Free Meal
+                                                            </p>
+                                                        </div>
+
+                                                    </li>
+                                                    <li class="fs-sm active">
+                                                        <i class="fa fa-plane"></i>Aircraft
+                                                        <div class="tipsy from-right-top">
+                                                            <p class="tipsy-content fl bottom-right info nowrap">
+                                                                BOEING 737-800
+                                                            </p>
+                                                        </div>
+
+                                                    </li>
+                                                    <li class="fs-sm">
+                                                        <i class="fa fa-youtube-play"></i>Entertainment
+                                                        <div class="tipsy from-right-top" style="right:7px;">
+                                                            <p class="tipsy-content fl bottom-right info nowrap">
+                                                                No information available
+                                                            </p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="fs-sm hidden-sm hide">
+                                                        <i class="ytfi-plug"></i>Power
+                                                        <div class="tipsy from-right-top">
+                                                            <p class="tipsy-content fl bottom-right info nowrap">
+                                                                No information available
+                                                            </p>
+                                                        </div><!-- end ngIf: !FS.amenities.power -->
+                                                    </li>
+                                                    <li class="fs-sm hidden-sm">
+                                                        <i class="fa fa-wifi"></i>Internet
+                                                        <div class="tipsy from-right-top">
+                                                            <p class="tipsy-content fl bottom-right info nowrap">
+                                                                No information available
+                                                            </p>
+                                                        </div>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="inc-rgt">
+                                                <ul>
+                                                    <li title="Non Refundable Fare">
+                                                        <a rel="nofollow" href="#" class="fs-sm under-link uprcse">Non Refundable</a>
+                                                    </li>
+                                                    <li>
+                                                        <a rel="nofollow" href="#" class="fs-sm under-link uprcse">Flight Details</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="full result-card-footer visible-md">
+                                            <ul class="fl result-card-footer-list uprcse">
+                                                <li>
+                                                    <a rel="nofollow" href="#" class="under-link uprcse">Flight Details</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="fr result-card-footer-list right">
+                                                <li class="uprcse">
+                                                    Free Meals
+                                                </li>
+                                                <li class="uprcse">
+                                                    Non Refundable
+                                                </li>
+                                                <li>
+                                            <span class="ecash-new result-tuple">
+                                                <span class="ecash-txt">eCash </span>
+                                                <b>
+                                                    <span class="ecash-amount">
+                                                        <span class="rs">Rs.</span>1,000</span>
+                                                </b>
+                                            </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".dropdown").hover(
+            function() {
+                $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
+                $(this).toggleClass('open');
+            },
+            function() {
+                $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
+                $(this).toggleClass('open');
+            }
+        );
+    });
+</script>
+
+</body>
+
+</html>
